@@ -1,0 +1,76 @@
+:root{
+    --yellow: #FCD34D;
+    --text: #000000;
+    --white: #ffffff;
+}
+
+.body{
+    overflow: hidden;
+}
+.container-fluid{
+    background-color: var(--yellow);
+}
+
+#btn-heading{
+    background-color: var(--yellow);
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.download-section{
+    padding: 50px 0px;
+}
+
+.features{
+    margin: 50px 0px;
+}
+
+#footer-icons{
+    /* margin:20px 0px; */
+    padding-bottom: 50px;
+}
+#footer-icons :nth-of-type(1){
+    color: #ffffff;
+    padding-top: 13px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #1DA1F2;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#footer-icons :nth-of-type(2){
+    color: #ffffff;
+    padding-top: 13px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #4267B2;
+    font-size: 30px;
+    margin-right: 10px;
+}
+ #footer-icons :nth-of-type(3){
+    color: #ffffff;
+    padding-top: 13px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FF0000;
+    font-size: 30px;
+    margin-right: 10px;
+ }
+
+ .footer-rights{
+     background-color: var(--text);
+     color: #585858;
+ }
+
+ .rights-links a{
+    text-decoration: none;
+    color: #585858;
+ }
+
+ .none{
+     display: none;
+ }
